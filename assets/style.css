@@ -244,3 +244,23 @@ code { font: 0.9em ui-monospace, SFMono-Regular, Menlo, monospace; }
   html { scroll-behavior: auto; }
   .btn { transition: none; }
 }
+
+/* App Store status row on project cards */
+.project-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+  margin-top: 28px;
+}
+.project-footer .project-links { margin: 0; }
+.btn.store { display: inline-flex; align-items: center; gap: 8px; }
+.status {
+  display: inline-block;
+  padding: 9px 16px;
+  border-radius: 12px;
+  border: 1px dashed var(--border);
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 600;
+}
