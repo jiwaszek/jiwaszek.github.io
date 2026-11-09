@@ -3,33 +3,304 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jakub Iwaszek – Apps</title>
-  <meta name="description" content="iOS apps by Jakub Iwaszek, with support and privacy information.">
+  <title>Jakub Iwaszek – iOS Developer</title>
+  <meta name="description" content="Jakub Iwaszek is an iOS developer with 5+ years of experience in Swift and SwiftUI, from the QVC and HSN shopping apps to Gro Health. Creator of CSDeveloper and ShareMeList.">
+  <meta property="og:title" content="Jakub Iwaszek – iOS Developer">
+  <meta property="og:description" content="iOS developer with 5+ years of experience in Swift and SwiftUI, from shopping apps with 2M+ daily users to my own App Store releases.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jiwaszek.github.io/">
+  <meta property="og:image" content="https://jiwaszek.github.io/assets/img/sml-list.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%233a4fd1'/%3E%3Ctext x='32' y='42' font-family='-apple-system,Helvetica,Arial' font-size='28' font-weight='700' fill='white' text-anchor='middle'%3EJI%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="/assets/style.css">
 </head>
-<body>
-  <header class="site">
+<body class="home-page">
+  <header class="site wide">
     <a class="home" href="/">Jakub Iwaszek</a>
-    <a href="/support/">Support</a>
-    <a href="/privacy/">Privacy</a>
+    <a href="#experience">Experience</a>
+    <a href="#work">Apps</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
   </header>
 
-  <main>
-    <h1>Apps</h1>
-    <p class="muted">Independent iOS apps. No accounts, no ads, no tracking.</p>
+  <main class="wide">
 
-    <div class="card">
-      <h3>CSDeveloper</h3>
-      <p>Prepare for iOS developer interviews with curated Q&amp;A, spaced-repetition review, quizzes and an optional AI study assistant.</p>
-      <p>
-        <a href="/support/#csdeveloper">Support</a> ·
-        <a href="/privacy/csdeveloper/">Privacy Policy</a>
-      </p>
-    </div>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">iOS Developer · 5+ years · Swift &amp; SwiftUI</p>
+        <h1>I build iOS apps used by millions, and two of my own</h1>
+        <p class="lede">I'm Jakub, an iOS developer and Computer Science graduate based in Poland. I've worked on the QVC and HSN shopping apps, and today I'm the sole iOS engineer on Gro Health. In my own time I design, build and ship my own apps to the App Store.</p>
+        <div class="actions">
+          <a class="btn primary" href="mailto:jiwaszekk@gmail.com">Email me</a>
+          <a class="btn" href="https://www.linkedin.com/in/jakub-iwaszek-5508a4188/">LinkedIn</a>
+        </div>
+      </div>
+      <figure class="hero-visual">
+        <a href="https://apps.apple.com/app/id6829503623"><img src="/assets/img/csd-learn-detail.jpg" alt="CSDeveloper answering “What is a retain cycle and how do you fix it?” with key points and a common mistake" width="552" height="1200" fetchpriority="high"></a>
+        <figcaption>CSDeveloper, live on the App Store</figcaption>
+      </figure>
+    </section>
+
+    <dl class="stats">
+      <div><dt>5+ years</dt><dd>building iOS apps commercially</dd></div>
+      <div><dt>2M+</dt><dd>daily users on the QVC and HSN apps</dd></div>
+      <div><dt>9</dt><dd>App Store apps, including my own</dd></div>
+    </dl>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <h2 class="section-title">Experience</h2>
+      <ol class="timeline">
+        <li>
+          <div class="when">03/2025 – present<span>AKRA Polska</span></div>
+          <div>
+            <h4>iOS Developer</h4>
+            <p class="job-project"><a href="https://apps.apple.com/pl/app/gro-health/id1461745988">Gro Health</a>, a wellbeing platform for nutrition tracking, fitness and health monitoring, education and coaching</p>
+            <ul>
+              <li>Lead development as the sole iOS engineer on the project</li>
+              <li>Design and build major features in SwiftUI with Swift Concurrency</li>
+              <li>Harden security with SSL certificate pinning and jailbreak detection</li>
+              <li>Integrate Vision, Speech and AVFoundation for voice input, image recognition and barcode scanning</li>
+              <li>Improve accessibility with VoiceOver and Dynamic Type support</li>
+              <li>Modularize the codebase with Swift Package Manager and refactor legacy code for stability and performance</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="when">01/2025 – 04/2025<span>Evlonsoft · freelance</span></div>
+          <div>
+            <h4>iOS Developer</h4>
+            <p class="job-project"><a href="https://apps.apple.com/app/id1013397211">Smart Football Coach</a></p>
+            <ul>
+              <li>Revamped the whole app with new designs and business logic</li>
+              <li>Rewrote legacy Objective-C code in SwiftUI and Combine</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="when">09/2022 – 11/2024<span>Qurate Retail Group</span></div>
+          <div>
+            <h4>iOS Developer</h4>
+            <p class="job-project">QVC Mobile Shopping (<a href="https://apps.apple.com/us/app/qvc-mobile-shopping-us/id340021813">US</a>, <a href="https://apps.apple.com/gb/app/qvc/id340423935">UK</a>, <a href="https://apps.apple.com/de/app/qvc-deutschland/id877730421">DE</a>), the <a href="https://apps.apple.com/us/app/hsn-shopping-app/id324326909">HSN Shopping App</a> and an internal ChatGPT-based web app. The shopping apps serve over 2 million daily users.</p>
+            <ul>
+              <li>Built push notifications and deep linking with Universal Links and Branch.io</li>
+              <li>Ran A/B tests, analytics tracking and feature flags with LaunchDarkly</li>
+              <li>Migrated legacy UIKit components to SwiftUI</li>
+              <li>Delivered privacy changes for regulations such as GDPR</li>
+              <li>Improved CI/CD pipelines, unit test coverage and releases through TestFlight and App Store Connect</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="when">08/2021 – 09/2022<span>Capgemini Polska</span></div>
+          <div>
+            <h4>iOS Developer</h4>
+            <p class="job-project">Internal apps that showcase a global company's portfolio: <a href="https://apps.apple.com/app/id1406771900">Capgemini X-PORT</a> and <a href="https://apps.apple.com/app/id1164877201">Capgemini Engage</a></p>
+            <ul>
+              <li>Designed the app architecture and in-app API layer</li>
+              <li>Implemented core features and SSO authentication</li>
+              <li>Did code reviews, pair programming and CI/CD maintenance</li>
+              <li>Automated testing with unit and snapshot tests</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Projects -->
+    <section id="work" class="section">
+      <h2 class="section-title">My own apps</h2>
+      <p class="muted section-sub">Two apps I designed and built on my own, from architecture to App Store release</p>
+
+      <!-- ShareMeList -->
+      <article class="project" id="sharemelist">
+        <div class="project-head">
+          <div>
+            <h3>ShareMeList</h3>
+            <p class="tagline">Shared grocery lists &amp; bill splitting</p>
+          </div>
+          <ul class="chips">
+            <li>iOS 17+</li><li>SwiftUI</li><li>Swift 6</li><li>Supabase</li><li>Realtime</li>
+          </ul>
+        </div>
+
+        <p class="project-intro">A shopping list you share with the people you live with. Add an item on one phone and it shows up on everyone's straight away, even after a stretch offline in the shop. After shopping, the app splits the bill and keeps track of who owes whom.</p>
+
+        <div class="shots" role="list">
+          <figure role="listitem"><img src="/assets/img/sml-list.jpg" alt="ShareMeList list screen with products grouped by aisle" loading="lazy" width="552" height="1200"></figure>
+          <figure role="listitem"><img src="/assets/img/sml-checkout.jpg" alt="Checkout screen for splitting the cost of a shopping trip" loading="lazy" width="552" height="1200"></figure>
+          <figure role="listitem"><img src="/assets/img/sml-balances.jpg" alt="Balances screen showing who owes whom" loading="lazy" width="552" height="1200"></figure>
+        </div>
+
+        <div class="columns">
+          <div>
+            <h4>What it does</h4>
+            <ul>
+              <li>Shared lists that sync live between everyone on them</li>
+              <li>Works fully offline and catches up when the connection returns</li>
+              <li>Quick entry: “2 kg apples” fills in the quantity for you</li>
+              <li>Groups products by aisle automatically, in English and Polish</li>
+              <li>Invite by QR code, link or AirDrop</li>
+              <li>Checkout splits each trip to the cent, in multiple currencies, with balances and history</li>
+            </ul>
+          </div>
+          <div>
+            <h4>How it's built</h4>
+            <ul>
+              <li><strong>Offline-first sync engine.</strong> The UI is a server-confirmed snapshot with a persistent outbox of pending changes on top, so updates feel instant and survive restarts</li>
+              <li><strong>Conflict handling.</strong> Edits are per-field last-write-wins, client-generated IDs make retries idempotent, and versioned tombstones mean deleted items never come back</li>
+              <li><strong>Security on the backend.</strong> Postgres row-level security decides every read and write. Invitations and disconnects are atomic SQL functions with their own SQL test suite</li>
+              <li><strong>Clean layering.</strong> A SwiftUI app sits on a local Swift package. Its dependency-free core runs against a <code>BackendService</code> protocol and is unit-tested with an in-memory backend</li>
+              <li><strong>Localization.</strong> Full English and Polish, including Polish plural forms, gender-neutral wording and switching language in the app without a restart</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-footer">
+          <!-- TODO: swap for an App Store button once approved -->
+          <span class="status">Coming soon to the App Store</span>
+          <p class="project-links">
+            <a href="/TogetherList/support/">Support</a> ·
+            <a href="/TogetherList/privacy/">Privacy policy</a>
+          </p>
+        </div>
+      </article>
+
+      <!-- CSDeveloper -->
+      <article class="project" id="csdeveloper">
+        <div class="project-head">
+          <div>
+            <h3>CSDeveloper</h3>
+            <p class="tagline">iOS interview prep with on-device AI</p>
+          </div>
+          <ul class="chips">
+            <li>iOS 26</li><li>SwiftUI</li><li>SwiftData</li><li>Foundation Models</li><li>SPM</li>
+          </ul>
+        </div>
+
+        <p class="project-intro">A study app for iOS developer interviews. Curated questions with clear answers, key points and common pitfalls, plus spaced-repetition review and quizzes. An AI study assistant runs on device with Apple Intelligence.</p>
+
+        <div class="shots" role="list">
+          <figure role="listitem"><img src="/assets/img/csd-learn-topics.jpg" alt="List of study topics" loading="lazy" width="552" height="1200"></figure>
+          <figure role="listitem"><img src="/assets/img/csd-review.jpg" alt="Spaced-repetition review card" loading="lazy" width="552" height="1200"></figure>
+          <figure role="listitem"><img src="/assets/img/csd-quiz.jpg" alt="Multiple-choice quiz question" loading="lazy" width="552" height="1200"></figure>
+        </div>
+
+        <div class="columns">
+          <div>
+            <h4>What it does</h4>
+            <ul>
+              <li>Curated iOS interview Q&amp;A with key points, pitfalls and follow-up questions</li>
+              <li>Spaced-repetition review that schedules each card for the right time</li>
+              <li>Quizzes, including questions generated by AI</li>
+              <li>“Ask AI” chat about any topic</li>
+              <li>Works offline. No account, ads or tracking</li>
+            </ul>
+          </div>
+          <div>
+            <h4>How it's built</h4>
+            <ul>
+              <li><strong>Modular architecture.</strong> 10 local Swift packages: domain, persistence, content, design system and AI, plus one package per feature</li>
+              <li><strong>On-device AI.</strong> Apple's Foundation Models framework powers quiz generation and chat. A provider abstraction can switch to OpenAI with the user's own key, stored in the Keychain</li>
+              <li><strong>Spaced repetition.</strong> An SM-2 scheduler lives in the pure domain layer, with progress stored in SwiftData</li>
+              <li><strong>Content pipeline.</strong> Versioned content packs come from a manifest on GitHub Pages. The app checks ETags, verifies each pack's SHA-256 checksum and keeps working offline</li>
+              <li><strong>Testing.</strong> Unit tests use Swift Testing, and an XCUITest suite drives the app to produce the App Store screenshots</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-footer">
+          <a class="btn primary store" href="https://apps.apple.com/app/id6829503623">
+            <svg aria-hidden="true" viewBox="0 0 384 512" width="16" height="16"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+            Download on the App Store
+          </a>
+          <p class="project-links">
+            <a href="/support/#csdeveloper">Support</a> ·
+            <a href="/privacy/csdeveloper/">Privacy policy</a>
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills">
+        <div class="skill-group">
+          <h4>Languages &amp; UI</h4>
+          <p>Swift, SwiftUI, UIKit, Objective-C, Combine, Swift Concurrency (async/await)</p>
+        </div>
+        <div class="skill-group">
+          <h4>Architecture</h4>
+          <p>MVVM, TCA, Clean Architecture, modular architecture with SPM, dependency injection, SOLID</p>
+        </div>
+        <div class="skill-group">
+          <h4>Testing &amp; QA</h4>
+          <p>XCTest, XCUITest, Swift Testing, unit and snapshot testing, test automation, Crashlytics, A/B testing</p>
+        </div>
+        <div class="skill-group">
+          <h4>Networking &amp; data</h4>
+          <p>URLSession, Alamofire, REST APIs, Codable, Core Data, SwiftData, Realm, Supabase, deep links, Universal Links, push notifications</p>
+        </div>
+        <div class="skill-group">
+          <h4>Apple frameworks</h4>
+          <p>HealthKit, Vision, Speech, AVFoundation, WidgetKit, MapKit, Keychain, VoiceOver and Dynamic Type, SSL pinning, jailbreak detection, Instruments</p>
+        </div>
+        <div class="skill-group">
+          <h4>AI</h4>
+          <p>Apple Intelligence, Foundation Models framework, App Intents, AI-assisted Xcode workflows</p>
+        </div>
+        <div class="skill-group">
+          <h4>CI/CD &amp; tooling</h4>
+          <p>Xcode, SPM, CocoaPods, XcodeGen, Git, GitFlow, Jenkins, Bitrise, Fastlane, App Store Connect, TestFlight</p>
+        </div>
+        <div class="skill-group">
+          <h4>Workflow</h4>
+          <p>Scrum, Jira, Confluence, feature flags (LaunchDarkly), code reviews, pair programming, technical documentation</p>
+        </div>
+        <div class="skill-group">
+          <h4>Analytics &amp; product</h4>
+          <p>Firebase, Adobe Analytics, Adobe Target, Branch.io, Constructor.io</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & languages -->
+    <section id="education" class="section">
+      <h2 class="section-title">Education</h2>
+      <ol class="timeline">
+        <li>
+          <div class="when">2021 – 2024</div>
+          <div>
+            <h4>Bachelor of Applied Computer Science</h4>
+            <p class="muted">Krakow University of Economics</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">2017 – 2021</div>
+          <div>
+            <h4>IT Specialist (EE08 and EE09 exams)</h4>
+            <p class="muted">E. Kwiatkowski Technical Schools Complex, Rzeszów</p>
+          </div>
+        </li>
+      </ol>
+      <p class="languages"><strong>Languages:</strong> Polish (native), English (proficient)</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <h2 class="section-title">Let's talk</h2>
+      <p class="lede">I'm open to iOS roles and freelance projects. The fastest way to reach me is email.</p>
+      <div class="actions">
+        <a class="btn primary" href="mailto:jiwaszekk@gmail.com">jiwaszekk@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/jakub-iwaszek-5508a4188/">LinkedIn</a>
+        <a class="btn" href="https://github.com/jiwaszek">GitHub</a>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    Contact: <a href="mailto:kubaa771@gmail.com">kubaa771@gmail.com</a>
+  <footer class="wide">
+    © 2026 Jakub Iwaszek · <a href="/support/">App support</a> · <a href="/privacy/">Privacy</a>
   </footer>
 </body>
 </html>
